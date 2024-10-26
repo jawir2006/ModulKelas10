@@ -5,7 +5,8 @@
 }
 
 body {
-  background-color:  #101114;
+  background: url('image/background.jpg') no-repeat center center fixed;
+    background-size: cover;
   font-family: Arial, sans-serif;
   display: flex;
   justify-content: center;

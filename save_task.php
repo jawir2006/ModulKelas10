@@ -8,6 +8,6 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $stmt->execute();
     $stmt->close();
     $conn->close();
-    echo "<script>alert('Tugas berhasil ditambahkan!'); window.location.href='index.php';</script>";
+    echo "<script>alert('Tugas kamu berhasil ditambahkan!'); window.location.href='index.php';</script>";
 }
 ?>
